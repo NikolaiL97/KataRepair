@@ -17,13 +17,16 @@
 }
 
 .swiper{
-    max-width: 240px;
-    height: 154px;
+    max-width: 256px;
+    height: 116px;
+    margin-left: 0;
   }
 
 .swiper-wrapper {
     margin: 0;
     padding: 0;
+    
+    
 }
   .swiper-slide{
     display: flex !important;
@@ -37,6 +40,9 @@
     border: 1px solid #EAEAEA;
     align-items: center;
     max-height: 72px;    
+    margin-bottom: 16px;
+    margin-right: 16px;
+    margin-left: 0;
   }
 
   .swiper-pagination-bullet {

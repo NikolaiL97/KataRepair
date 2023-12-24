@@ -25,16 +25,9 @@ buttonOpen.addEventListener('click', function()
 
 
     let swiper = new Swiper(".mySwiper", {
-    //   spaceBetween: 320,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
-        
-        // dynamicBullets: true,
       },
       
       mousewheel: true,
